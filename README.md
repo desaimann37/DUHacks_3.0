@@ -19,3 +19,7 @@ Hand Gesture Based Functionalities :
 3. Virtual Mouse
 4. Hand Tracking 
 
+Usage : 
+
+run : 'python app.py'
+It'll start your Flask Server on respective port number 
