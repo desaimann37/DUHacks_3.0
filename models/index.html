@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+      h1 {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        margin: 0;
+      }
+
+      .stream-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        margin: 20px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Gesture Detection</h1>
+    <div class="stream-container">
+      <img src="{{ url_for('video') }}" alt="Live Stream" />
+      <a href="/virtual_mouse">Virtual Mouse</a>
+      <a href="/virtual_painter">Virtual Painter</a>
+      <a href="/vol_control">Volume Control</a>
+    </div>
+  </body>
+</html>
