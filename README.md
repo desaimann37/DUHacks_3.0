@@ -1,3 +1,6 @@
+DUHacks 3.0 Project
+
+
 cv2 (OpenCV):
 
 Description: OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library.
